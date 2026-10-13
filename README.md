@@ -4,17 +4,17 @@ An interactive football analytics project exploring Premier League team performa
 
 The project combines **SQL Server**, **Power BI**, and **DAX** to transform historical match data into a report designed for comparison, exploration, and data storytelling.
 
-> **Data coverage:** [Insert the earliest and latest seasons included in your dataset]. The report reflects the seasons available in the source data; it may not include every Premier League season.
+> **Data coverage:** 1993-2026 (20/09/2026). The report reflects the seasons available in the source data; it may not include every Premier League season.
 
 ## Dashboard preview
 
-![Premier League dashboard overview](images/league-overview.png)
+![Premier League dashboard overview](screenshots/page_1_premier_league_overview.png)
 
-*Replace the image above with a screenshot of your League Overview page.*
 
-**[View interactive report](YOUR_POWER_BI_REPORT_URL)** · **[Watch demo](YOUR_DEMO_VIDEO_URL)** · **[View portfolio case study](YOUR_PORTFOLIO_URL)**
 
-> Replace or remove these links until they are available. Public access to a Power BI report depends on its sharing settings.
+**[View interactive report]([https://app.powerbi.com/view?r=eyJrIjoiMzQ2MWJkNjctMjE1Ny00ZTUxLWFkMWUtYmZhOTIyODNkZGYwIiwidCI6IjViZjI2ZTU2LTUyNDQtNDQ2Zi1iZWQ5LTU1OGM1ZDAwNTk1ZSJ9)]
+
+
 
 ## Project objectives
 
