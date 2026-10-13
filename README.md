@@ -8,9 +8,10 @@ The project combines **SQL Server**, **Power BI**, and **DAX** to transform hist
 
 ## Dashboard preview
 
-(screenshots/page_1_premier_league_overview.png)
+(06_screenshots/page_1_premier_league_overview.png)
 
-https://app.powerbi.com/view?r=eyJrIjoiMzQ2MWJkNjctMjE1Ny00ZTUxLWFkMWUtYmZhOTIyODNkZGYwIiwidCI6IjViZjI2ZTU2LTUyNDQtNDQ2Zi1iZWQ5LTU1OGM1ZDAwNTk1ZSJ9
+[View the Interactive Power BI Dashboard]((https://app.powerbi.com/view?r=eyJrIjoiMzQ2MWJkNjctMjE1Ny00ZTUxLWFkMWUtYmZhOTIyODNkZGYwIiwidCI6IjViZjI2ZTU2LTUyNDQtNDQ2Zi1iZWQ5LTU1OGM1ZDAwNTk1ZSJ9))
+
 
 
 
