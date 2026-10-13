@@ -6,11 +6,13 @@ The project combines **SQL Server**, **Power BI**, and **DAX** to transform hist
 
 > **Data coverage:** 1993-2026 (20/09/2026). The report reflects the seasons available in the source data; it may not include every Premier League season.
 
-## Dashboard preview
 
-(06_screenshots/page_1_premier_league_overview.png)
+## Dashboard Preview
 
-[View the Interactive Power BI Dashboard]((https://app.powerbi.com/view?r=eyJrIjoiMzQ2MWJkNjctMjE1Ny00ZTUxLWFkMWUtYmZhOTIyODNkZGYwIiwidCI6IjViZjI2ZTU2LTUyNDQtNDQ2Zi1iZWQ5LTU1OGM1ZDAwNTk1ZSJ9))
+![Premier League Overview](06_screenshots/page_1_premier_league_overview.png)
+
+[View the Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzQ2MWJkNjctMjE1Ny00ZTUxLWFkMWUtYmZhOTIyODNkZGYwIiwidCI6IjViZjI2ZTU2LTUyNDQtNDQ2Zi1iZWQ5LTU1OGM1ZDAwNTk1ZSJ9)
+
 
 
 
