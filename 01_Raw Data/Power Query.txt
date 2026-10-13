@@ -1,0 +1,27 @@
+
+
+let
+    Source   = Folder.Files("C:\Users\arran\Documents\Data Projects\Premier League"),
+    Xlsx     = Table.SelectRows(Source, each [Extension] = ".xlsx" and not Text.StartsWith([Name], "~$")),
+
+    // Column list comes from your template
+    Template     = Excel.Workbook(File.Contents("C:\Users\arran\Documents\Data Projects\Premier League\00_01.xlsx"), true){0}[Data],
+    TemplateCols = Table.ColumnNames(Template),
+
+    // Optional aliases: {"name in file", "name in template"}
+    Aliases = {{"Cust ID", "customer_id"}, {"Amt", "amount"}},
+
+    Shaped = Table.AddColumn(Xlsx, "Data", each
+        let
+            t0 = Excel.Workbook([Content], true){0}[Data],
+            t1 = Table.TransformColumnNames(t0, Text.Trim),
+            t2 = Table.RenameColumns(t1, Aliases, MissingField.Ignore),
+            t3 = Table.SelectColumns(t2, TemplateCols, MissingField.UseNull),
+            t4 = Table.AddColumn(t3, "source_file", (r) => [Name], type text)
+        in
+            t4),
+
+    Combined = Table.Combine(Shaped[Data]),
+    AllText  = Table.TransformColumnTypes(Combined, List.Transform(Table.ColumnNames(Combined), each {_, type text}))
+in
+    AllText
